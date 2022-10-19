@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tacos el Jefe</title>
+</head>
+<body>
+    
+    <header>
+        <H1>Tacos el jefe, desde 2022</H1>
+    </header>
+    
+        <section>
+        <img src="./Tacos el jefe.png" alt="Logo de la taqueria">
+
+        <h2>Menu</h2>
+        <h3>Tacos grandes</h3>
+        <p>Todos incluyen nopales y cebollas</p>
+        <ul>
+            <li>Bisteck........................30</li>
+            <li>Chorizo........................30</li>
+            <li>Azada..........................30</li>
+            <li>Campechano.....................30</li>
+        </ul>
+        <h3>Tacos pequeños</h3>
+        <p>Con cilantro y cebolla</p>
+        <ul>
+            <li>Bisteck........................30</li>
+            <li>Chorizo........................30</li>
+            <li>Azada..........................30</li>
+            <li>Campechano.....................30</li>
+        </ul>
+
+        <h3>Especiales</h3>
+        <p>Combo con refresco por $10 pesos mas</p>
+        <dl>
+            <dt><b>Labrador</b>......................$40</dt>
+            <dd>- Tortilla de Maiz grande repleta de carne</dd>
+            <dt><b>Pastor Aleman</b>.................$40</dt>
+            <dd>- Tortilla de harina con carne arabe y chiles habaneros</dd>
+            <dt><b>Pug</b>...........................$40</dt>
+            <dd>- Tradicionales tacos al pastor</dd>
+
+        </dl>
+        <hr>
+    </section>
+
+        <section>
+        <h2>Ubicacion</h2>
+        <h3>Sucursales</h3>
+        <table>
+            <tr>
+                <th>Nombre</th>
+                <th>Ubicacion</th>
+                <th>Horarios</th>
+            </tr>
+            <tr>
+                <td>Centro</td>
+                <td><a href="https://goo.gl/maps/bvvLaovvJjENtSsv5" target="_blank">Isabel La Católica 919, Postal, Benito Juárez, 03410 Ciudad de México, CDMX</a></td>
+                <td>L - D 24H</td>
+            </tr>
+            <tr>
+                <td>Sur</td>
+                <td><a href="https://goo.gl/maps/F2fu9qATsSWroRXr8" target="_blank">Balmaceda, Josefa Ortiz de Domínguez, Benito Juárez, 03410 Benito Juárez, CDMX</a></td>
+                <td>L - D 5PM - 3AM</td>
+            </tr>
+            <tr>
+                <td>Norte</td>
+                <td><a href="https://goo.gl/maps/twzpauXU3SCemy7HA" target="_blank">Isabel La Católica 89, Álamos, Benito Juárez, 03400 Ciudad de México, CDMX</a></td>
+                <td>M - D 5PM - 3PM</td>
+            </tr>
+        </table>
+
+        <hr>
+    </section>
+
+        <section>
+        <h2>Pedidos</h2>
+        <h3>Haz tu pedido aqui</h3>
+
+        <form action="">
+        <p>¿De que taqueria quieres tus tacos?</p>
+        <select name="" id="">
+            <option value="Norte">Norte</option>
+            <option value="Centro">Centro</option>
+            <option value="Sur">Sur</option>
+        </select>
+
+        <p>¿De que tacos quieres?</p>
+        
+        <input type="checkbox" name="Bisteck" id="Bisteck" value="Bisteck">
+        <label for="Bisteck">Bisteck</label>
+        <input type="number" name="BisteckNumber" id="BisteckNumber" placeholder="¿Cuantos?">
+        <br>
+
+        <input type="checkbox" name="Chorizo" id="Chorizo" value="Chorizo">
+        <label for="Chorizo">Chorizo</label>
+        <input type="number" name="ChorizoNumber" id="ChorizoNumber" placeholder="¿Cuantos?">
+        <br>
+
+        <input type="checkbox" name="Azada" id="Azada" value="Azada">
+        <label for="Azada">Azada</label>
+        <input type="number" name="AzadaNumber" id="AzadaNumber" placeholder="¿Cuantos?">
+        <br>
+
+        <input type="checkbox" name="Campechano" id="Campechano" value="Campechano">
+        <label for="Campechano">Campechano</label>
+        <input type="number" name="CampechanoNumber" id="CampechanoNumber" placeholder="¿Cuantos?">
+        
+        <br><br>
+
+        <label for="Nombre">Nombre:</label><br>
+        <input type="text" name="Nombre" id="Nombre" placeholder="¿Como te llamas?">
+
+        <br><br>
+
+        <label for="Numero">Numero:</label><br>
+        <input type="tel" name="Numero" id="Numero" placeholder="¿Cual es tu numero de telefono?">
+
+        <br><br>
+
+        <label for="Direccion">Direccion:</label><br>
+        <input type="text" name="Direccion" id="Direccion" placeholder="¿Cual es tu direccion?">
+
+        <br><br>
+
+        <button type="submit">Realizar pedido</button>
+    </form>
+    </section>
+
+</body>
+</html>
